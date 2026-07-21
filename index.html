@@ -1,39 +1,9 @@
-</button>
-                )}
-              </div>
-            </div>
-
-            {/* قسم الإتلاف الآمن للأدوية المنتهية */}
-            <div className="bg-slate-900/60 border border-slate-800 rounded-3xl p-6 flex flex-col justify-between">
-              <div>
-                <div className="p-3 bg-teal-500/10 border border-teal-500/20 rounded-2xl text-teal-400 w-fit mb-4">
-                  <MapPin className="w-6 h-6" />
-                </div>
-                <h3 className="font-bold text-lg text-slate-100">الإتلاف البيئي الآمن</h3>
-                <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-                  لحماية المياه الجوفية والبيئة من التلوث الكيميائي الناتج عن رمي الأدوية في النفايات التقليدية، يحدد التطبيق حاويات الإتلاف الآمن المعتمدة بالقرب منك.
-                </p>
-              </div>
-
-              <div className="mt-6 space-y-3">
-                {locationFound && (
-                  <div className="p-3 bg-slate-950 border border-slate-800 rounded-xl text-xs space-y-1 text-slate-300">
-                    <p className="font-bold text-teal-300">أقرب نقطة إتلاف آمن:</p>
-                    <p>صيدلية المجتمع - فرع النهضة (على بعد 1.2 كم)</p>
-                  </div>
-                )}
-                <button 
-                  onClick={() => setLocationFound(true)}
-                  className="w-full bg-slate-800 hover:bg-slate-700 text-slate-200 py-3 rounded-xl font-bold text-xs transition border border-slate-700"
-                >
-                  {locationFound ? 'تم التحديد على الخريطة (GPS)' : 'تحديد أقرب حاوية إتلاف (GPS)'}
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
-
-      </main>
-    </div>
-  );
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>موقعي</title>
+</head>
+<body>
+    <h1>أهلاً بك في موقعي الصيدلية الذكية!</h1>
+</body>
+</html>
