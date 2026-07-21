@@ -1,0 +1,864 @@
+You are a Principal Software Engineer, Senior UI/UX Designer, AI Architect, Security Engineer, DevOps Engineer, and Healthcare Software Architect.
+
+Your task is NOT to generate examples.
+
+Your task is to build an enterprise-grade production-ready full stack web application from scratch.
+
+Project Name
+
+Smart Home Pharmacy AI
+AI-Powered Home Medication Management Platform
+
+====================================================
+
+GENERAL REQUIREMENTS
+
+====================================================
+
+Build a complete production-ready application.
+
+The project must contain:
+
+Frontend
+
+Backend
+
+Database
+
+Authentication
+
+Admin Dashboard
+
+User Dashboard
+
+REST API
+
+AI Integration Layer
+
+OCR Engine
+
+Computer Vision
+
+Medication Interaction Engine
+
+Notification System
+
+Maps
+
+Analytics
+
+Reports
+
+Modern UI
+
+Responsive Design
+
+Accessibility
+
+Dark Mode
+
+Animations
+
+Error Handling
+
+Logging
+
+Security
+
+Deployment Configuration
+
+Docker
+
+CI/CD
+
+Testing
+
+Documentation
+
+Every feature must be fully coded.
+
+Do not leave placeholders.
+
+Do not write TODO.
+
+Do not simplify anything.
+
+Every page must be functional.
+
+====================================================
+
+TECH STACK
+
+====================================================
+
+Frontend
+
+Next.js 15
+
+React 19
+
+TypeScript
+
+TailwindCSS
+
+Shadcn UI
+
+Framer Motion
+
+React Hook Form
+
+Zod
+
+TanStack Query
+
+Axios
+
+React Table
+
+Chart.js
+
+Lucide Icons
+
+Backend
+
+NestJS
+
+TypeScript
+
+Prisma ORM
+
+PostgreSQL
+
+Redis
+
+BullMQ
+
+JWT Authentication
+
+Passport
+
+Swagger
+
+Database
+
+PostgreSQL
+
+ORM
+
+Prisma
+
+Storage
+
+AWS S3 Compatible
+
+Cloudinary support
+
+Authentication
+
+JWT
+
+Refresh Token
+
+Google Login
+
+Apple Login
+
+Microsoft Login
+
+Biometric Support Ready
+
+Notifications
+
+Firebase Cloud Messaging
+
+Email
+
+SMS
+
+Push Notifications
+
+AI
+
+OpenAI API
+
+Gemini API
+
+OCR
+
+Google Vision OCR
+
+Tesseract OCR
+
+Computer Vision
+
+OpenCV
+
+Maps
+
+Google Maps API
+
+OpenStreetMap
+
+Deployment
+
+Docker
+
+Docker Compose
+
+NGINX
+
+GitHub Actions
+
+Vercel Frontend
+
+Railway Backend
+
+====================================================
+
+SYSTEM MODULES
+
+====================================================
+
+1.
+
+Landing Page
+
+Beautiful hero
+
+Medical illustration
+
+Professional animations
+
+Statistics
+
+Features
+
+How it works
+
+Testimonials
+
+FAQ
+
+Pricing
+
+Contact
+
+Footer
+
+2.
+
+Authentication
+
+Register
+
+Login
+
+Forgot Password
+
+Reset Password
+
+Email Verification
+
+Phone Verification
+
+2FA
+
+JWT
+
+3.
+
+User Dashboard
+
+Modern dashboard
+
+Overview
+
+Medicine count
+
+Expiring medicines
+
+Upcoming doses
+
+Medication schedule
+
+Interaction alerts
+
+Donation status
+
+Recycling status
+
+Charts
+
+Activity
+
+Notifications
+
+4.
+
+Family Management
+
+Create family
+
+Invite members
+
+Permissions
+
+Roles
+
+Children
+
+Parents
+
+Emergency Contacts
+
+5.
+
+Digital Medicine Cabinet
+
+Each home owns one digital cabinet.
+
+Cabinet contains:
+
+Medicine Name
+
+Scientific Name
+
+Brand
+
+Manufacturer
+
+Category
+
+Prescription
+
+Batch Number
+
+Barcode
+
+QR Code
+
+Expiry Date
+
+Manufacturing Date
+
+Quantity
+
+Storage Instructions
+
+Image
+
+Doctor
+
+Pharmacy
+
+Purchase Date
+
+Cost
+
+Notes
+
+Current Status
+
+====================================================
+
+SMART OCR SCANNING
+
+====================================================
+
+The application must include an AI-powered medicine scanner.
+
+User opens camera.
+
+Scans:
+
+Medicine Box
+
+Medicine Strip
+
+Bottle
+
+Prescription
+
+Receipt
+
+OCR automatically extracts:
+
+Medicine Name
+
+Scientific Name
+
+Dose
+
+Strength
+
+Frequency
+
+Instructions
+
+Expiry Date
+
+Prescription Number
+
+Doctor Name
+
+Hospital
+
+Patient Name
+
+Barcode
+
+Manufacturer
+
+Everything is inserted automatically.
+
+No manual entry required.
+
+====================================================
+
+AI COMPUTER VISION
+
+====================================================
+
+Detect medicine package.
+
+Crop automatically.
+
+Enhance image.
+
+Recognize text.
+
+Classify medicine.
+
+Identify category.
+
+Detect expiration.
+
+Detect language.
+
+Support:
+
+Arabic
+
+English
+
+====================================================
+
+MEDICATION SCHEDULER
+
+====================================================
+
+Automatically create medication schedule.
+
+Morning
+
+Afternoon
+
+Evening
+
+Night
+
+Custom schedule
+
+Recurring schedule
+
+Missed doses
+
+Completed doses
+
+Smart reminders
+
+Push notifications
+
+SMS reminders
+
+Email reminders
+
+====================================================
+
+EXPIRATION AI
+
+====================================================
+
+Predict upcoming expiration.
+
+Notify:
+
+30 days
+
+14 days
+
+7 days
+
+3 days
+
+1 day
+
+Expired
+
+Generate reports.
+
+Suggest donation.
+
+Suggest recycling.
+
+====================================================
+
+DRUG INTERACTION ENGINE
+
+====================================================
+
+The most important module.
+
+Whenever user adds medicine:
+
+Automatically compare against:
+
+Current medications
+
+Previous medications
+
+Known allergies
+
+Pregnancy
+
+Age
+
+Weight
+
+Chronic diseases
+
+Generate:
+
+Green
+
+Safe
+
+Yellow
+
+Use with caution
+
+Orange
+
+Consult physician
+
+Red
+
+Dangerous interaction
+
+Explain:
+
+Mechanism
+
+Risk
+
+Recommendation
+
+Evidence
+
+Medical references
+
+====================================================
+
+AI MEDICAL CHATBOT
+
+====================================================
+
+Chat powered by LLM.
+
+Uses official medical sources.
+
+Never diagnoses diseases.
+
+Never prescribes medication.
+
+Only educational guidance.
+
+Can answer:
+
+Before or after food?
+
+Side effects
+
+Storage
+
+Missed dose
+
+Contraindications
+
+Warnings
+
+Children
+
+Pregnancy
+
+Breastfeeding
+
+Drug information
+
+Medicine alternatives
+
+General health education
+
+If user requests diagnosis:
+
+Politely refuse.
+
+Recommend consulting physician.
+
+====================================================
+
+SOCIAL IMPACT MODULE
+
+====================================================
+
+Unused medicine
+
+If unopened
+
+Eligible for donation
+
+Connect with:
+
+Medicine Banks
+
+Charities
+
+Hospitals
+
+NGOs
+
+Schedule pickup.
+
+Generate QR.
+
+Track donation.
+
+Reward points.
+
+====================================================
+
+SAFE DISPOSAL MODULE
+
+====================================================
+
+Expired medicine
+
+Find nearest disposal center.
+
+Using GPS
+
+Google Maps
+
+Map markers
+
+Directions
+
+Estimated distance
+
+Safe disposal instructions
+
+Environmental education
+
+====================================================
+
+ANALYTICS
+
+====================================================
+
+Charts
+
+Medicine categories
+
+Family adherence
+
+Monthly usage
+
+Expired medicine
+
+Donated medicine
+
+Interaction history
+
+Recycling impact
+
+Environmental savings
+
+====================================================
+
+ADMIN DASHBOARD
+
+====================================================
+
+Users
+
+Families
+
+Medicines
+
+Donations
+
+Recycling
+
+Reports
+
+Analytics
+
+AI Usage
+
+System Health
+
+Audit Logs
+
+Roles
+
+Permissions
+
+CMS
+
+Settings
+
+====================================================
+
+SECURITY
+
+====================================================
+
+OWASP Top 10
+
+Rate limiting
+
+Helmet
+
+CSP
+
+CSRF
+
+XSS
+
+SQL Injection Protection
+
+Encryption
+
+Audit Logs
+
+Role Based Access
+
+Permission System
+
+Secrets Management
+
+====================================================
+
+DESIGN
+
+====================================================
+
+Minimal
+
+Modern
+
+Apple Inspired
+
+Glassmorphism
+
+Medical Theme
+
+Blue
+
+Green
+
+White
+
+Rounded cards
+
+Micro interactions
+
+Smooth transitions
+
+Responsive
+
+Dark Mode
+
+Accessibility AA
+
+====================================================
+
+CODE QUALITY
+
+====================================================
+
+Feature Based Architecture
+
+Reusable Components
+
+SOLID Principles
+
+Clean Architecture
+
+Repository Pattern
+
+Service Layer
+
+DTO
+
+Validation
+
+Unit Tests
+
+Integration Tests
+
+E2E Tests
+
+Linting
+
+Formatting
+
+Documentation
+
+====================================================
+
+GENERATE
+
+====================================================
+
+Generate the COMPLETE PROJECT.
+
+Generate every folder.
+
+Generate every file.
+
+Generate every component.
+
+Generate every API.
+
+Generate every database schema.
+
+Generate every Prisma model.
+
+Generate every page.
+
+Generate every endpoint.
+
+Generate every UI.
+
+Generate every hook.
+
+Generate every middleware.
+
+Generate every service.
+
+Generate every test.
+
+Generate Docker.
+
+Generate CI/CD.
+
+Generate README.
+
+Generate environment variables.
+
+Generate Swagger.
+
+Generate complete production-ready source code.
+
+Nothing should be omitted.
