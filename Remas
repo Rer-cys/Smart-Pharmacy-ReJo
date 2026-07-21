@@ -1,864 +1,430 @@
-You are a Principal Software Engineer, Senior UI/UX Designer, AI Architect, Security Engineer, DevOps Engineer, and Healthcare Software Architect.
-
-Your task is NOT to generate examples.
-
-Your task is to build an enterprise-grade production-ready full stack web application from scratch.
-
-Project Name
-
-Smart Home Pharmacy AI
-AI-Powered Home Medication Management Platform
-
-====================================================
-
-GENERAL REQUIREMENTS
-
-====================================================
-
-Build a complete production-ready application.
-
-The project must contain:
-
-Frontend
-
-Backend
-
-Database
-
-Authentication
-
-Admin Dashboard
-
-User Dashboard
-
-REST API
-
-AI Integration Layer
-
-OCR Engine
-
-Computer Vision
-
-Medication Interaction Engine
-
-Notification System
-
-Maps
-
-Analytics
-
-Reports
-
-Modern UI
-
-Responsive Design
-
-Accessibility
-
-Dark Mode
-
-Animations
-
-Error Handling
-
-Logging
-
-Security
-
-Deployment Configuration
-
-Docker
-
-CI/CD
-
-Testing
-
-Documentation
-
-Every feature must be fully coded.
-
-Do not leave placeholders.
-
-Do not write TODO.
-
-Do not simplify anything.
-
-Every page must be functional.
-
-====================================================
-
-TECH STACK
-
-====================================================
-
-Frontend
-
-Next.js 15
-
-React 19
-
-TypeScript
-
-TailwindCSS
-
-Shadcn UI
-
-Framer Motion
-
-React Hook Form
-
-Zod
-
-TanStack Query
-
-Axios
-
-React Table
-
-Chart.js
-
-Lucide Icons
-
-Backend
-
-NestJS
-
-TypeScript
-
-Prisma ORM
-
-PostgreSQL
-
-Redis
-
-BullMQ
-
-JWT Authentication
-
-Passport
-
-Swagger
-
-Database
-
-PostgreSQL
-
-ORM
-
-Prisma
-
-Storage
-
-AWS S3 Compatible
-
-Cloudinary support
-
-Authentication
-
-JWT
-
-Refresh Token
-
-Google Login
-
-Apple Login
-
-Microsoft Login
-
-Biometric Support Ready
-
-Notifications
-
-Firebase Cloud Messaging
-
-Email
-
-SMS
-
-Push Notifications
-
-AI
-
-OpenAI API
-
-Gemini API
-
-OCR
-
-Google Vision OCR
-
-Tesseract OCR
-
-Computer Vision
-
-OpenCV
-
-Maps
-
-Google Maps API
-
-OpenStreetMap
-
-Deployment
-
-Docker
-
-Docker Compose
-
-NGINX
-
-GitHub Actions
-
-Vercel Frontend
-
-Railway Backend
-
-====================================================
-
-SYSTEM MODULES
-
-====================================================
-
-1.
-
-Landing Page
-
-Beautiful hero
-
-Medical illustration
-
-Professional animations
-
-Statistics
-
-Features
-
-How it works
-
-Testimonials
-
-FAQ
-
-Pricing
-
-Contact
-
-Footer
-
-2.
-
-Authentication
-
-Register
-
-Login
-
-Forgot Password
-
-Reset Password
-
-Email Verification
-
-Phone Verification
-
-2FA
-
-JWT
-
-3.
-
-User Dashboard
-
-Modern dashboard
-
-Overview
-
-Medicine count
-
-Expiring medicines
-
-Upcoming doses
-
-Medication schedule
-
-Interaction alerts
-
-Donation status
-
-Recycling status
-
-Charts
-
-Activity
-
-Notifications
-
-4.
-
-Family Management
-
-Create family
-
-Invite members
-
-Permissions
-
-Roles
-
-Children
-
-Parents
-
-Emergency Contacts
-
-5.
-
-Digital Medicine Cabinet
-
-Each home owns one digital cabinet.
-
-Cabinet contains:
-
-Medicine Name
-
-Scientific Name
-
-Brand
-
-Manufacturer
-
-Category
-
-Prescription
-
-Batch Number
-
-Barcode
-
-QR Code
-
-Expiry Date
-
-Manufacturing Date
-
-Quantity
-
-Storage Instructions
-
-Image
-
-Doctor
-
-Pharmacy
-
-Purchase Date
-
-Cost
-
-Notes
-
-Current Status
-
-====================================================
-
-SMART OCR SCANNING
-
-====================================================
-
-The application must include an AI-powered medicine scanner.
-
-User opens camera.
-
-Scans:
-
-Medicine Box
-
-Medicine Strip
-
-Bottle
-
-Prescription
-
-Receipt
-
-OCR automatically extracts:
-
-Medicine Name
-
-Scientific Name
-
-Dose
-
-Strength
-
-Frequency
-
-Instructions
-
-Expiry Date
-
-Prescription Number
-
-Doctor Name
-
-Hospital
-
-Patient Name
-
-Barcode
-
-Manufacturer
-
-Everything is inserted automatically.
-
-No manual entry required.
-
-====================================================
-
-AI COMPUTER VISION
-
-====================================================
-
-Detect medicine package.
-
-Crop automatically.
-
-Enhance image.
-
-Recognize text.
-
-Classify medicine.
-
-Identify category.
-
-Detect expiration.
-
-Detect language.
-
-Support:
-
-Arabic
-
-English
-
-====================================================
-
-MEDICATION SCHEDULER
-
-====================================================
-
-Automatically create medication schedule.
-
-Morning
-
-Afternoon
-
-Evening
-
-Night
-
-Custom schedule
-
-Recurring schedule
-
-Missed doses
-
-Completed doses
-
-Smart reminders
-
-Push notifications
-
-SMS reminders
-
-Email reminders
-
-====================================================
-
-EXPIRATION AI
-
-====================================================
-
-Predict upcoming expiration.
-
-Notify:
-
-30 days
-
-14 days
-
-7 days
-
-3 days
-
-1 day
-
-Expired
-
-Generate reports.
-
-Suggest donation.
-
-Suggest recycling.
-
-====================================================
-
-DRUG INTERACTION ENGINE
-
-====================================================
-
-The most important module.
-
-Whenever user adds medicine:
-
-Automatically compare against:
-
-Current medications
-
-Previous medications
-
-Known allergies
-
-Pregnancy
-
-Age
-
-Weight
-
-Chronic diseases
-
-Generate:
-
-Green
-
-Safe
-
-Yellow
-
-Use with caution
-
-Orange
-
-Consult physician
-
-Red
-
-Dangerous interaction
-
-Explain:
-
-Mechanism
-
-Risk
-
-Recommendation
-
-Evidence
-
-Medical references
-
-====================================================
-
-AI MEDICAL CHATBOT
-
-====================================================
-
-Chat powered by LLM.
-
-Uses official medical sources.
-
-Never diagnoses diseases.
-
-Never prescribes medication.
-
-Only educational guidance.
-
-Can answer:
-
-Before or after food?
-
-Side effects
-
-Storage
-
-Missed dose
-
-Contraindications
-
-Warnings
-
-Children
-
-Pregnancy
-
-Breastfeeding
-
-Drug information
-
-Medicine alternatives
-
-General health education
-
-If user requests diagnosis:
-
-Politely refuse.
-
-Recommend consulting physician.
-
-====================================================
-
-SOCIAL IMPACT MODULE
-
-====================================================
-
-Unused medicine
-
-If unopened
-
-Eligible for donation
-
-Connect with:
-
-Medicine Banks
-
-Charities
-
-Hospitals
-
-NGOs
-
-Schedule pickup.
-
-Generate QR.
-
-Track donation.
-
-Reward points.
-
-====================================================
-
-SAFE DISPOSAL MODULE
-
-====================================================
-
-Expired medicine
-
-Find nearest disposal center.
-
-Using GPS
-
-Google Maps
-
-Map markers
-
-Directions
-
-Estimated distance
-
-Safe disposal instructions
-
-Environmental education
-
-====================================================
-
-ANALYTICS
-
-====================================================
-
-Charts
-
-Medicine categories
-
-Family adherence
-
-Monthly usage
-
-Expired medicine
-
-Donated medicine
-
-Interaction history
-
-Recycling impact
-
-Environmental savings
-
-====================================================
-
-ADMIN DASHBOARD
-
-====================================================
-
-Users
-
-Families
-
-Medicines
-
-Donations
-
-Recycling
-
-Reports
-
-Analytics
-
-AI Usage
-
-System Health
-
-Audit Logs
-
-Roles
-
-Permissions
-
-CMS
-
-Settings
-
-====================================================
-
-SECURITY
-
-====================================================
-
-OWASP Top 10
-
-Rate limiting
-
-Helmet
-
-CSP
-
-CSRF
-
-XSS
-
-SQL Injection Protection
-
-Encryption
-
-Audit Logs
-
-Role Based Access
-
-Permission System
-
-Secrets Management
-
-====================================================
-
-DESIGN
-
-====================================================
-
-Minimal
-
-Modern
-
-Apple Inspired
-
-Glassmorphism
-
-Medical Theme
-
-Blue
-
-Green
-
-White
-
-Rounded cards
-
-Micro interactions
-
-Smooth transitions
-
-Responsive
-
-Dark Mode
-
-Accessibility AA
-
-====================================================
-
-CODE QUALITY
-
-====================================================
-
-Feature Based Architecture
-
-Reusable Components
-
-SOLID Principles
-
-Clean Architecture
-
-Repository Pattern
-
-Service Layer
-
-DTO
-
-Validation
-
-Unit Tests
-
-Integration Tests
-
-E2E Tests
-
-Linting
-
-Formatting
-
-Documentation
-
-====================================================
-
-GENERATE
-
-====================================================
-
-Generate the COMPLETE PROJECT.
-
-Generate every folder.
-
-Generate every file.
-
-Generate every component.
-
-Generate every API.
-
-Generate every database schema.
-
-Generate every Prisma model.
-
-Generate every page.
-
-Generate every endpoint.
-
-Generate every UI.
-
-Generate every hook.
-
-Generate every middleware.
-
-Generate every service.
-
-Generate every test.
-
-Generate Docker.
-
-Generate CI/CD.
-
-Generate README.
-
-Generate environment variables.
-
-Generate Swagger.
-
-Generate complete production-ready source code.
-
-Nothing should be omitted.
+#!/bin/bash
+
+# ==============================================================================
+# مشروع: الصيدلية المنزلية الذكية (Smart Home Pharmacy)
+# Script to generate full production-grade repository structure & code files
+# ==============================================================================
+
+echo "🚀 جاري إنشاء هيكل المشروع وتنزيل الأكواد..."
+
+# 1. إنشاء المجلدات الأساسية
+mkdir -p prisma src/lib src/types src/components/ui src/app/scan src/app/cabinet src/app/assistant src/app/sustainability src/app/api/ocr/scan src/app/api/interactions/check src/app/api/chat
+
+# 2. إنشاء ملف package.json
+cat << 'EOF' > package.json
+{
+  "name": "smart-home-pharmacy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "prisma db push"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.10.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.330.0",
+    "next": "14.1.0",
+    "openai": "^4.28.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-webcam": "^7.2.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "prisma": "^5.10.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
+EOF
+
+# 3. إنشاء ملف .env.example
+cat << 'EOF' > .env.example
+DATABASE_URL="postgresql://postgres:password@localhost:5432/pharmacy_db?schema=public"
+OPENAI_API_KEY="your-openai-api-key-here"
+NEXTAUTH_SECRET="your-super-secret-key"
+EOF
+
+# 4. إنشاء مخطط قاعدة البيانات (Prisma Schema)
+cat << 'EOF' > prisma/schema.prisma
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum InteractionSeverity {
+  SAFE
+  MODERATE
+  CRITICAL
+}
+
+enum DonationStatus {
+  PENDING
+  ACCEPTED
+  COMPLETED
+}
+
+model User {
+  id            String         @id @default(uuid())
+  name          String
+  email         String         @unique
+  passwordHash  String
+  role          Role           @default(USER)
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  familyMembers FamilyMember[]
+  donations     Donation[]
+}
+
+model FamilyMember {
+  id          String       @id @default(uuid())
+  userId      String
+  user        User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name        String
+  relation    String
+  medications Medication[]
+}
+
+model Medication {
+  id              String         @id @default(uuid())
+  familyMemberId  String
+  familyMember    FamilyMember   @relation(fields: [familyMemberId], references: [id], onDelete: Cascade)
+  tradeName       String
+  scientificName  String
+  dosage          String
+  category        String
+  expiryDate      DateTime
+  instructions    String?
+  activeCompounds String[]
+  createdAt       DateTime       @default(now())
+  donations       Donation[]
+}
+
+model DrugInteraction {
+  id               String              @id @default(uuid())
+  compoundA        String
+  compoundB        String
+  severity         InteractionSeverity
+  warningArabic    String
+  description      String
+}
+
+model Donation {
+  id           String         @id @default(uuid())
+  userId       String
+  user         User           @relation(fields: [userId], references: [id])
+  medicationId String
+  medication   Medication     @relation(fields: [medicationId], references: [id])
+  status       DonationStatus @default(PENDING)
+  createdAt    DateTime       @default(now())
+}
+EOF
+
+# 5. إنشاء محرك فحص التداخلات الدوائية (lib/interactionEngine.ts)
+cat << 'EOF' > src/lib/interactionEngine.ts
+import { PrismaClient, InteractionSeverity } from '@prisma/client';
+
+const prisma = new PrismaClient();
+
+export interface InteractionResult {
+  hasConflict: boolean;
+  severity: InteractionSeverity;
+  conflictingDrug?: string;
+  warningMessage?: string;
+}
+
+export async function checkDrugInteractions(
+  newCompounds: string[],
+  existingMedicationIds: string[]
+): Promise<InteractionResult> {
+  const existingMeds = await prisma.medication.findMany({
+    where: { id: { in: existingMedicationIds } },
+    select: { tradeName: true, activeCompounds: true }
+  });
+
+  for (const med of existingMeds) {
+    for (const compoundA of newCompounds) {
+      for (const compoundB of med.activeCompounds) {
+        const conflict = await prisma.drugInteraction.findFirst({
+          where: {
+            OR: [
+              { compoundA: compoundA.toLowerCase(), compoundB: compoundB.toLowerCase() },
+              { compoundA: compoundB.toLowerCase(), compoundB: compoundA.toLowerCase() }
+            ]
+          }
+        });
+
+        if (conflict) {
+          return {
+            hasConflict: true,
+            severity: conflict.severity,
+            conflictingDrug: med.tradeName,
+            warningMessage: conflict.warningArabic
+          };
+        }
+      }
+    }
+  }
+
+  return { hasConflict: false, severity: InteractionSeverity.SAFE };
+}
+EOF
+
+# 6. إنشاء API المسح الضوئي (src/app/api/ocr/scan/route.ts)
+cat << 'EOF' > src/app/api/ocr/scan/route.ts
+import { NextRequest, NextResponse } from 'next/server';
+import OpenAI from 'openai';
+
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+export async function POST(req: NextRequest) {
+  try {
+    const { imageBase64 } = await req.json();
+
+    if (!imageBase64) {
+      return NextResponse.json({ error: 'الصورة مطلوبة' }, { status: 400 });
+    }
+
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4o',
+      messages: [
+        {
+          role: 'system',
+          content: `أنت نظام رؤية حاسوبية طبي متقدم. استخرج بيانات الدواء من الصورة وأرجع JSON فقط بالصيغة التالية:
+          {
+            "tradeName": "اسم الدواء التجاري",
+            "scientificName": "الاسم العلمي / المادة الفعالة",
+            "expiryDate": "YYYY-MM-DD",
+            "dosage": "الجرعة مثلاً 500mg",
+            "category": "التصنيف مثلاً مضاد حيوي",
+            "instructions": "تعليمات الاستخدام",
+            "activeCompounds": ["مادة1", "مادة2"]
+          }`
+        },
+        {
+          role: 'user',
+          content: [
+            { type: 'image_url', image_url: { url: `data:image/jpeg;base64,${imageBase64}` } }
+          ]
+        }
+      ],
+      response_format: { type: "json_object" }
+    });
+
+    const parsedData = JSON.parse(response.choices[0].message.content || '{}');
+    return NextResponse.json({ success: true, data: parsedData });
+
+  } catch (error) {
+    console.error('OCR Error:', error);
+    return NextResponse.json({ error: 'فشل تحليل صورة الدواء' }, { status: 500 });
+  }
+}
+EOF
+
+# 7. إنشاء API الشات بوت الطبي (src/app/api/chat/route.ts)
+cat << 'EOF' > src/app/api/chat/route.ts
+import { NextRequest, NextResponse } from 'next/server';
+import OpenAI from 'openai';
+
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const SYSTEM_PROMPT = `أنت "المساعد الطبي الذكي" للصيدلية المنزلية. 
+قواعد صارمة يجب الالتزام بها:
+1. تجيب فقط عن الاستفسارات العامة المتعلقة بالأدوية (مثل: هل يؤخذ قبل الأكل؟ الأعراض الجانبية الشائعة).
+2. يُمنع منعاً باتاً تشخيص الأمراض أو اقتراح أدوية جديدة أو تعديل الجرعات الطبية.
+3. إذا طلب المستخدم تشخيصاً، أجب بـ: "عذراً، لا يمكنني تقديم تشخيص طبي. يرجى استشارة الطبيب المختص."
+4. أجب دائماً باللغة العربية بأسلوب موثوق ومبسط.`;
+
+export async function POST(req: NextRequest) {
+  try {
+    const { messages } = await req.json();
+
+    const response = await openai.chat.completions.create({
+      model: 'gpt-4o-mini',
+      messages: [
+        { role: 'system', content: SYSTEM_PROMPT },
+        ...messages
+      ],
+      temperature: 0.3,
+    });
+
+    return NextResponse.json({ reply: response.choices[0].message.content });
+  } catch (error) {
+    return NextResponse.json({ error: 'حدث خطأ أثناء معالجة الطلب' }, { status: 500 });
+  }
+}
+EOF
+
+# 8. إنشاء مكون الكاميرا والمسح الضوئي (src/components/ScanCamera.tsx)
+cat << 'EOF' > src/components/ScanCamera.tsx
+'use client';
+
+import React, { useRef, useState } from 'react';
+import Webcam from 'react-webcam';
+import { Camera, Loader2, AlertTriangle } from 'lucide-react';
+
+export default function ScanCamera({ onScanComplete }: { onScanComplete: (data: any) => void }) {
+  const webcamRef = useRef<Webcam>(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const captureAndScan = async () => {
+    const imageSrc = webcamRef.current?.getScreenshot();
+    if (!imageSrc) return;
+
+    setLoading(true);
+    setError(null);
+
+    const base64Data = imageSrc.split(',')[1];
+
+    try {
+      const res = await fetch('/api/ocr/scan', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ imageBase64: base64Data }),
+      });
+
+      const result = await res.json();
+      if (result.success) {
+        onScanComplete(result.data);
+      } else {
+        setError(result.error || 'عذراً، لم نتمكن من قراءة العلبة تلقائياً');
+      }
+    } catch (err) {
+      setError('حدث خطأ في الاتصال بالسيرفر');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="flex flex-col items-center justify-center p-4 bg-slate-900 rounded-2xl text-white dir-rtl">
+      <div className="relative w-full max-w-md aspect-square rounded-xl overflow-hidden border-2 border-emerald-500 shadow-2xl">
+        <Webcam
+          audio={false}
+          ref={webcamRef}
+          screenshotFormat="image/jpeg"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 border-2 border-dashed border-emerald-400 opacity-60 m-8 rounded-lg pointer-events-none" />
+      </div>
+
+      {error && (
+        <div className="flex items-center gap-2 text-rose-400 mt-3 text-sm">
+          <AlertTriangle className="w-4 h-4" />
+          <span>{error}</span>
+        </div>
+      )}
+
+      <button
+        onClick={captureAndScan}
+        disabled={loading}
+        className="mt-5 flex items-center justify-center gap-2 w-full max-w-md py-3.5 bg-emerald-600 hover:bg-emerald-500 active:scale-95 text-white font-bold rounded-xl transition shadow-lg disabled:opacity-50"
+      >
+        {loading ? (
+          <>
+            <Loader2 className="w-5 h-5 animate-spin" />
+            جاري تحليل الدواء بالذكاء الاصطناعي...
+          </>
+        ) : (
+          <>
+            <Camera className="w-5 h-5" />
+            مسح علبة الدواء الآن
+          </>
+        )}
+      </button>
+    </div>
+  );
+}
+EOF
+
+# 9. إنشاء الصفحة الرئيسية (src/app/page.tsx)
+cat << 'EOF' > src/app/page.tsx
+import Link from 'next/link';
+import { Camera, ShieldAlert, Bot, Recycle, Pill } from 'lucide-react';
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-slate-950 text-slate-100 p-6 dir-rtl flex flex-col items-center">
+      <header className="max-w-4xl text-center my-12">
+        <h1 className="text-4xl md:text-6xl font-black text-emerald-400 mb-4">
+          الصيدلية المنزلية الذكية 💊
+        </h1>
+        <p className="text-slate-400 text-lg md:text-xl">
+          منصة ريادية تحول صيدليتك المهملة إلى نظام ذكي آمن يمنع الهدر ويحمي عائلتك.
+        </p>
+      </header>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl w-full">
+        <Link href="/scan" className="p-6 bg-slate-900 border border-slate-800 rounded-2xl hover:border-emerald-500 transition group">
+          <Camera className="w-10 h-10 text-emerald-400 mb-4 group-hover:scale-110 transition" />
+          <h2 className="text-xl font-bold mb-2">المسح الضوئي (OCR)</h2>
+          <p className="text-slate-400 text-sm">استخراج بيانات الأدوية تلقائياً باستخدام الرؤية الحاسوبية.</p>
+        </Link>
+
+        <Link href="/cabinet" className="p-6 bg-slate-900 border border-slate-800 rounded-2xl hover:border-emerald-500 transition group">
+          <Pill className="w-10 h-10 text-blue-400 mb-4 group-hover:scale-110 transition" />
+          <h2 className="text-xl font-bold mb-2">الخزانة الرقمية</h2>
+          <p className="text-slate-400 text-sm">تنظيم الجدول والجرعات وتتبع تواريخ الانتهاء لكل أفراد العائلة.</p>
+        </Link>
+
+        <Link href="/assistant" className="p-6 bg-slate-900 border border-slate-800 rounded-2xl hover:border-emerald-500 transition group">
+          <Bot className="w-10 h-10 text-purple-400 mb-4 group-hover:scale-110 transition" />
+          <h2 className="text-xl font-bold mb-2">المساعد الطبي</h2>
+          <p className="text-slate-400 text-sm">استشارات فورية موثوقة حول الجرعات والأعراض بكل أمان.</p>
+        </Link>
+
+        <Link href="/sustainability" className="p-6 bg-slate-900 border border-slate-800 rounded-2xl hover:border-emerald-500 transition group col-span-1 md:col-span-2 lg:col-span-3">
+          <Recycle className="w-10 h-10 text-teal-400 mb-4 group-hover:scale-110 transition" />
+          <h2 className="text-xl font-bold mb-2">إعادة التدوير والأثر الاجتماعي</h2>
+          <p className="text-slate-400 text-sm">التبرع بالأدوية الصالحة فائضة الحجام أو توجيه الأدوية المنتهية للجمع والحاويات الآمنة.</p>
+        </Link>
+      </div>
+    </main>
+  );
+}
+EOF
+
+# 10. إنشاء توثيق المستودع (README.md)
+cat << 'EOF' > README.md
+# 💊 الصيدلية المنزلية الذكية | Smart Home Pharmacy
+
+تطبيق ريادي اجتماعي مدعوم بالذكاء الاصطناعي لإدارة الرعاية الصحية المنزلية وحماية البيئة.
+
+## 🌟 الميزات المكتملة
+- 📸 **Computer Vision & OCR:** قراءة علب الأدوية واستخراج البيانات بـ AI.
+- 📅 **الخزانة الذكية:** تقسيم الأدوية حسب أفراد العائلة مع تنبيهات الانتهاء.
+- 🛡️ **درع الأمان:** محرك برمجي مطور لفحص التداخلات الكيميائية الخطيرة.
+- 🤖 **المساعد الطبي:** شات بوت مدعم ببروتوكولات طبية عالمية محددة.
+- ♻️ **التدوير الاجتماعي:** نظام التبرع بالأدوية وتحديد أماكن التخلص الآمن.
+
+## 🚀 بدء التشغيل
+
+```bash
+# 1. تثبيت الحزم
+npm install
+
+# 2. إعداد قاعدة البيانات
+npx prisma db push
+
+# 3. تشغيل المشروع
+npm run dev
